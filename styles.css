@@ -1,0 +1,19 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+div {
+    border: 1px solid #3882F6;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+container {
+    display: flex;
+    flex-direction: row;
+}
