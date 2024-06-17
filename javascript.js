@@ -21,70 +21,104 @@ const row14 = document.createElement("div");
 const row15 = document.createElement("div");
 const row16 = document.createElement("div");
 
+row1.classList.add("row");
+row2.classList.add("row");
+row3.classList.add("row");
+row4.classList.add("row");
+row5.classList.add("row");
+row6.classList.add("row");
+row7.classList.add("row");
+row8.classList.add("row");
+row9.classList.add("row");
+row10.classList.add("row");
+row11.classList.add("row");
+row12.classList.add("row");
+row13.classList.add("row");
+row14.classList.add("row");
+row15.classList.add("row");
+row16.classList.add("row");
+
+
 for (let i = 0; i < 256; i++) {
     if (i < 16) {
         let a = document.createElement("div");
+        a.classList.add("div-grid");
         row1.appendChild(a)
     }
     else if (i < 32) {
-        let b = document.createElement("div")
-        row2.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row2.appendChild(a);
     }
     else if (i < 48) {
-        let b = document.createElement("div")
-        row3.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row3.appendChild(a);
     }
     else if (i < 64) {
-        let b = document.createElement("div")
-        row4.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row4.appendChild(a);
     }
     else if (i < 80) {
-        let b = document.createElement("div")
-        row5.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row5.appendChild(a);
     }
     else if (i < 96) {
-        let b = document.createElement("div")
-        row6.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row6.appendChild(a);
     }
     else if (i < 112) {
-        let b = document.createElement("div")
-        row7.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row7.appendChild(a);
     }
     else if (i < 128) {
-        let b = document.createElement("div")
-        row8.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row8.appendChild(a);
     }
     else if (i < 144) {
-        let b = document.createElement("div")
-        row9.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row9.appendChild(a);
     }
     else if (i < 160) {
-        let b = document.createElement("div")
-        row10.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row10.appendChild(a);
     }
     else if (i < 176) {
-        let b = document.createElement("div")
-        row11.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row11.appendChild(a);
     }
     else if (i < 192) {
-        let b = document.createElement("div")
-        row12.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row12.appendChild(a);
     }
     else if (i < 208) {
-        let b = document.createElement("div")
-        row13.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row13.appendChild(a);
     }
     else if (i < 224) {
-        let b = document.createElement("div")
-        row14.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row14.appendChild(a);
     }
     else if (i < 240) {
-        let b = document.createElement("div")
-        row15.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row15.appendChild(a);
     }
     else if (i < 256) {
-        let b = document.createElement("div")
-        row16.appendChild(b);
+        let a = document.createElement("div");
+        a.classList.add("div-grid");
+        row16.appendChild(a);
     }
 }
 
@@ -110,70 +144,8 @@ container.appendChild(row16);
 
 
 
-/* const row1 = document.createElement("div");
-
-const div1 = document.createElement("div");
-const div2 = document.createElement("div");
-const div3 = document.createElement("div");
-const div4 = document.createElement("div");
-const div5 = document.createElement("div");
-const div6 = document.createElement("div");
-const div7 = document.createElement("div");
-const div8 = document.createElement("div");
-const div9 = document.createElement("div");
-const div10 = document.createElement("div");
-const div11 = document.createElement("div");
-const div12 = document.createElement("div");
-const div13 = document.createElement("div");
-const div14 = document.createElement("div");
-const div15 = document.createElement("div");
-const div16 = document.createElement("div");
-
-container.appendChild(row1);
-
-row1.appendChild(div1);
-row1.appendChild(div2);
-row1.appendChild(div3);
-row1.appendChild(div4);
-row1.appendChild(div5);
-row1.appendChild(div6);
-row1.appendChild(div7);
-row1.appendChild(div8);
-row1.appendChild(div9);
-row1.appendChild(div10);
-row1.appendChild(div11);
-row1.appendChild(div12);
-row1.appendChild(div13);
-row1.appendChild(div14);
-row1.appendChild(div15);
-row1.appendChild(div16); */
+// class for rows to avoid div styling
+// flexbox for rows and divs to fill entire screen on zoom in and out
+// remove rows if possible to create grid with flexbox only
 
 
-// Recall landing-page and see 16x16 div grid in the same way. 
-// one more div for every 16 divs, two levels of append
-
-
-/* window.onload=function()
-    {
-        let i=0;
-        let j=0;
-
-        for (i=1; i<=16; i++)
-        {
-            for (j=1; j<=16; j++)
-            {
-                if ((i%2!=0 && j%2==0)||(i%2==0 && j%2!=0))
-                {
-                    let d=document.createElement("div");
-                    document.body.appendChild(d);
-                    d.className="black";
-                }
-                else
-                {
-                    let d=document.createElement("div");
-                    document.body.appendChild(d);
-                    d.className="white";
-                }
-            }
-        }
-    } */
