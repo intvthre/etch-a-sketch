@@ -7,10 +7,11 @@ const button = document.querySelector("button");
 
 
 function createGrid() {
+    let container = document.querySelector("container");
+
+    container.replaceChildren();
 
     let input = Number(prompt("Enter grid size", ""));
-
-
 
     let grid = input * input;
 
@@ -422,7 +423,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 2.4%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -432,7 +433,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 2.3%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -442,7 +443,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 2.3%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -452,7 +453,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 2.2%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -462,7 +463,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 2.2%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -472,7 +473,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 2.1%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -482,7 +483,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 2.1%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -492,7 +493,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 2.0%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -512,7 +513,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 2.0%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -522,7 +523,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 2.0%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -532,7 +533,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.9%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -542,7 +543,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.9%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -552,7 +553,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.9%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -562,7 +563,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.8%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -572,7 +573,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.8%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -582,7 +583,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.8%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -592,7 +593,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.7%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -602,7 +603,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.7%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -612,7 +613,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.7%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -622,7 +623,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.7%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -632,7 +633,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.6%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -652,7 +653,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.6%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -662,7 +663,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.6%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -672,7 +673,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.6%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -682,7 +683,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.6%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -692,7 +693,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.5%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -702,7 +703,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.5%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -712,7 +713,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.5%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -722,7 +723,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.5%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -732,7 +733,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.5%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -742,7 +743,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.5%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -752,7 +753,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.4%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -762,7 +763,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.4%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -772,7 +773,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.4%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -782,7 +783,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.4%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -792,7 +793,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.4%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -802,7 +803,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.4%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -812,7 +813,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.4%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -822,7 +823,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.3%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -832,7 +833,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.3%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -842,7 +843,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.3%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -852,7 +853,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.3%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -862,7 +863,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.3%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -872,7 +873,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.3%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -882,7 +883,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.3%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -892,7 +893,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.3%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -902,7 +903,17 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.2%";
+                a.classList.add("hover");
+                container.appendChild(a)
+            }
+        }
+    }
+    else if (input === 91) {
+        for (let i = 0; i < grid; i++) {
+            if (i < grid) {
+                let a = document.createElement("div");
+                a.style.flex = "1 1.1%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -912,7 +923,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.1%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -922,7 +933,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.2%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -932,7 +943,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.2%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -942,7 +953,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.2%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -952,7 +963,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.1%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -962,7 +973,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.1%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -972,7 +983,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 9%";
+                a.style.flex = "1 1.1%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -982,7 +993,7 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 1 8px";
+                a.style.flex = "1 1.1%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
@@ -992,25 +1003,31 @@ function createGrid() {
         for (let i = 0; i < grid; i++) {
             if (i < grid) {
                 let a = document.createElement("div");
-                a.style.flex = "1 1 8px";
+                a.style.flex = "1 1%";
                 a.classList.add("hover");
                 container.appendChild(a)
             }
         }
     }
 
-    const hover = document.querySelectorAll(".hover");
+    const hover = document.querySelectorAll("div");
 
-    hover.forEach((hover) => {
+    hover.forEach(() => {
     addEventListener("mouseover", (e) => {
-        e.target.style.background = "blue";
+        if (e.target && e.target.nodeName == "DIV") {
+            e.target.style.background = "blue";
+            }
     })
 })
+
+
+
 
 }
 // Find a shorter function or conditional to use a single line of code instead of a hundred
 // Rather than calculate percentage, find the flexShrink or flexBasis
 // Final test for grid is changing screen size and all divs fitting in
 // Stop html background from changing color on hover
-// Remove grid on start of function
+// 
+
 
