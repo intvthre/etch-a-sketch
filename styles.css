@@ -1,6 +1,6 @@
 html, body {
     margin: 0;
-    height: 960px;
+    max-height: 960px;
     max-width: 960px;
     overflow-x: hidden;
 }

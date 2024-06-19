@@ -11,15 +11,21 @@ if (input === 2) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 50%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
 }
+
+
+
+
 else if (input === 3) {
     for (let i = 0; i < grid; i++) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 33%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -29,6 +35,7 @@ else if (input === 4) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 24%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -38,6 +45,7 @@ else if (input === 5) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 20%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -47,6 +55,7 @@ else if (input === 6) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 16%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -56,6 +65,7 @@ else if (input === 7) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 14%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -65,6 +75,7 @@ else if (input === 8) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 12%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -74,6 +85,7 @@ else if (input === 9) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 11%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -83,6 +95,7 @@ else if (input === 10) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 10%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -92,6 +105,7 @@ else if (input === 11) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -101,6 +115,7 @@ else if (input === 12) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 8.3%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -110,6 +125,7 @@ else if (input === 13) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 7.6%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -119,6 +135,7 @@ else if (input === 14) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 7.1%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -128,6 +145,7 @@ else if (input === 15) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 6.6%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -137,6 +155,7 @@ else if (input === 16) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 6%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -146,6 +165,7 @@ else if (input === 17) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 5.8%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -155,6 +175,7 @@ else if (input === 18) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 5.5%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -164,6 +185,7 @@ else if (input === 19) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 5.2%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -173,6 +195,7 @@ else if (input === 20) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 5%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -182,6 +205,7 @@ else if (input === 21) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 4.7%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -191,6 +215,7 @@ else if (input === 22) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 4.5%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -200,6 +225,7 @@ else if (input === 23) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 4.3%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -209,6 +235,7 @@ else if (input === 24) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 4.1%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -218,6 +245,7 @@ else if (input === 25) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 4%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -227,6 +255,7 @@ else if (input === 26) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 3.8%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -236,6 +265,7 @@ else if (input === 27) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 3.7%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -245,6 +275,7 @@ else if (input === 28) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 3.5%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -254,6 +285,7 @@ else if (input === 29) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 3.4%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -263,6 +295,7 @@ else if (input === 30) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 3.3%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -272,6 +305,7 @@ else if (input === 31) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 3.2%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -281,6 +315,7 @@ else if (input === 32) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 3.1%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -290,6 +325,7 @@ else if (input === 33) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 3%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -299,6 +335,7 @@ else if (input === 34) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 2.9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -308,6 +345,7 @@ else if (input === 35) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 2.8%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -317,6 +355,7 @@ else if (input === 36) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 2.7%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -326,6 +365,7 @@ else if (input === 37) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 2.7%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -335,6 +375,7 @@ else if (input === 38) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 2.6%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -344,6 +385,7 @@ else if (input === 39) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 2.5%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -353,6 +395,7 @@ else if (input === 40) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 2.5%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -362,6 +405,7 @@ else if (input === 41) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 2.4%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -371,6 +415,7 @@ else if (input === 42) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -380,6 +425,7 @@ else if (input === 43) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -389,6 +435,7 @@ else if (input === 44) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -398,6 +445,7 @@ else if (input === 45) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -407,6 +455,7 @@ else if (input === 46) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -416,6 +465,7 @@ else if (input === 47) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -425,6 +475,7 @@ else if (input === 48) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -434,6 +485,7 @@ else if (input === 49) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -442,7 +494,8 @@ else if (input === 50) {
     for (let i = 0; i < grid; i++) {
         if (i < grid) {
             let a = document.createElement("div");
-            a.style.flex = "1 9%";
+            a.style.flex = "1 1.58%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -452,6 +505,7 @@ else if (input === 51) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -461,6 +515,7 @@ else if (input === 52) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -470,6 +525,7 @@ else if (input === 53) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -479,6 +535,7 @@ else if (input === 54) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -488,6 +545,7 @@ else if (input === 55) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -497,6 +555,7 @@ else if (input === 56) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -506,6 +565,7 @@ else if (input === 57) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -515,6 +575,7 @@ else if (input === 58) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -524,6 +585,7 @@ else if (input === 59) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -533,6 +595,7 @@ else if (input === 60) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -542,6 +605,7 @@ else if (input === 61) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -551,6 +615,7 @@ else if (input === 62) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -560,6 +625,7 @@ else if (input === 63) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -568,7 +634,8 @@ else if (input === 64) {
     for (let i = 0; i < grid; i++) {
         if (i < grid) {
             let a = document.createElement("div");
-            a.style.flex = "1 9%";
+            a.style.flex = "1 1.5%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -578,6 +645,7 @@ else if (input === 65) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -587,6 +655,7 @@ else if (input === 66) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -596,6 +665,7 @@ else if (input === 67) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -605,6 +675,7 @@ else if (input === 68) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -614,6 +685,7 @@ else if (input === 69) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -623,6 +695,7 @@ else if (input === 70) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -632,6 +705,7 @@ else if (input === 71) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -641,6 +715,7 @@ else if (input === 72) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -650,6 +725,7 @@ else if (input === 73) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -659,6 +735,7 @@ else if (input === 74) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -668,6 +745,7 @@ else if (input === 75) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -677,6 +755,7 @@ else if (input === 76) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -686,6 +765,7 @@ else if (input === 77) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -695,6 +775,7 @@ else if (input === 78) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -704,6 +785,7 @@ else if (input === 79) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -713,6 +795,7 @@ else if (input === 80) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -722,6 +805,7 @@ else if (input === 81) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -731,6 +815,7 @@ else if (input === 82) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -740,6 +825,7 @@ else if (input === 83) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -749,6 +835,7 @@ else if (input === 84) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -758,6 +845,7 @@ else if (input === 85) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -767,6 +855,7 @@ else if (input === 86) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -776,6 +865,7 @@ else if (input === 87) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -785,6 +875,7 @@ else if (input === 88) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -794,6 +885,7 @@ else if (input === 89) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -803,6 +895,7 @@ else if (input === 90) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -812,6 +905,7 @@ else if (input === 92) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -821,6 +915,7 @@ else if (input === 93) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -830,6 +925,7 @@ else if (input === 94) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -839,6 +935,7 @@ else if (input === 95) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -848,6 +945,7 @@ else if (input === 96) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -857,6 +955,7 @@ else if (input === 97) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -866,6 +965,7 @@ else if (input === 98) {
         if (i < grid) {
             let a = document.createElement("div");
             a.style.flex = "1 9%";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -874,7 +974,8 @@ else if (input === 99) {
     for (let i = 0; i < grid; i++) {
         if (i < grid) {
             let a = document.createElement("div");
-            a.style.flex = "1 9%";
+            a.style.flex = "1 1 8px";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -883,7 +984,8 @@ else if (input === 100) {
     for (let i = 0; i < grid; i++) {
         if (i < grid) {
             let a = document.createElement("div");
-            a.style.flex = "1 0.79%";
+            a.style.flex = "1 1 8px";
+            a.classList.add("hover");
             container.appendChild(a)
         }
     }
@@ -891,4 +993,16 @@ else if (input === 100) {
 
 
 // Find a shorter function or conditional to use a single line of code instead of a hundred
-// 
+// Rather than calculate percentage, find the flexShrink or flexBasis
+// Final test for grid is changing screen size and all divs fitting in
+// Stop html background from changing color on hover
+// Center container in the middle
+
+
+const hover = document.querySelectorAll(".hover");
+
+hover.forEach((hover) => {
+    addEventListener("mouseover", (e) => {
+        e.target.style.background = "blue";
+    })
+})
