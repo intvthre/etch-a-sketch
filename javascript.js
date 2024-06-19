@@ -1024,10 +1024,9 @@ function createGrid() {
 
 
 }
-// Find a shorter function or conditional to use a single line of code instead of a hundred
-// Rather than calculate percentage, find the flexShrink or flexBasis
-// Final test for grid is changing screen size and all divs fitting in
-// Stop html background from changing color on hover
-// 
+
+// Find method for all divs fitting in for grid on changed screen size
+// Find method without a hundred lines of conditionals
+
 
 
